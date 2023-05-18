@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 *{
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
 
@@ -88,18 +88,46 @@ nav ul a:not(.btn):after{
 nav ul a:hover::after{
     width: 100%;
 }
+/*video*/
+
+.back-vid{
+    position: absolute;
+    right: 0;
+    bottom: 0;  
+    z-index: -1;
+    
+}
+@media (min-aspect-radio: 16/9)
+{
+    .back-vid{
+        width: auto;
+        height: 100%;
+    }
+}
+@media (max-aspect-radio: 16/9)
+{
+    .back-vid{
+        width: auto;
+        height: 100%;
+    }
+}
 .banner{
     display: flex;
+    overflow: hidden;
     justify-content: center;
+    align-items: center;
 }
+
+
 .banner .banner-text {
-    margin: 150px;
+    margin: 0 auto;
     text-align: center;
     padding:  0;
+    
 }
 .banner .banner-text h1{
-    font-size: 96px;
-    color: black;
+    font-size: 160px;
+    color: #fff;
 }
 .banner .banner-text p{
     font-size: 20px;
