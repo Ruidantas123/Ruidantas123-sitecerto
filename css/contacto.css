@@ -241,3 +241,15 @@ a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.legal-menu {
+    margin: 0 10%;
+    width: 80%;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    flex-wrap: wrap;
+    gap: 10px;
+}
