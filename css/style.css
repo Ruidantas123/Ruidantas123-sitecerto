@@ -63,17 +63,25 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    position: absolute;
+    width: 100%;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav .logo{
+    width: 100px;
 }
-nav ul a{
-    color:  white;
-    margin: 0 22px;
-    text-transform: uppercase;
-    font-size: 14px;
-    display: block;
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    color:  #fff;
+    font-size: 17px;
+    text-decoration: none;
+
 }
 nav ul a:not(.btn):after{
     content: "";
@@ -122,24 +130,33 @@ nav ul a:hover::after{
 .banner .banner-text {
     margin: 0 auto;
     text-align: center;
-    padding:  0;
+    padding:  260px;
     
 }
 .banner .banner-text h1{
     font-size: 160px;
     color: #fff;
+    font-weight: 600;
 }
-.banner .banner-text p{
-    font-size: 20px;
-    color: #ffffffb7;
-    font-weight: lighter;
-    margin: 18px 0;
+.banner .banner-text a{
+    font-size: 24px;
+    color: #fff;
+    padding: 14px 70px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-top: 20px;
 }
 /*faca mais*/
 .faca-mais .container{
     display:  flex;
     align-items: center;
-
+    border: 4px solid #4f9cf9;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 30px 70px;
+    
 }
 .faca-mais .faca-mais-text{
     width: 50%;
@@ -180,6 +197,7 @@ nav ul a:hover::after{
     text-align: center;
     width: 350px;
     transition: 0.3s;
+    padding: 50px 70px;
 }
 .depoimentos .card-item .nome-user{
     font-weight: 600;
