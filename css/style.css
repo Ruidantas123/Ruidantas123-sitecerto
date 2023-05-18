@@ -131,7 +131,7 @@ nav ul a:hover::after{
 .banner .banner-text {
     margin: 0 auto;
     text-align: center;
-    padding:  235px;
+    padding:  243px;
     
 }
 .banner .banner-text h1{
@@ -139,7 +139,7 @@ nav ul a:hover::after{
     color: #fff;
     font-weight: 600;
 }
-.banner .banner-text a{
+.banner .banner-text button{
     font-size: 24px;
     color: #fff;
     padding: 14px 70px;
@@ -148,6 +148,8 @@ nav ul a:hover::after{
     border: 2px solid #fff;
     border-radius: 50px;
     margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 /*faca mais*/
@@ -332,3 +334,19 @@ h2 {
     flex-wrap: wrap;
     gap: 10px;
 }
+.legal-menu a {
+    color: #fff;
+    font-size: 14px;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+
+  }
+ 
+  .hidden {
+    opacity: 1;
+  }
+
