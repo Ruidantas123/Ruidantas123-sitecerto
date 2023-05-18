@@ -188,7 +188,7 @@ nav ul a:hover::after{
 }
 /*footer*/
 .footer{
-    background-color: #08448e;
+    background-color: red;
     text-align: center;
 }
 .footer i{
