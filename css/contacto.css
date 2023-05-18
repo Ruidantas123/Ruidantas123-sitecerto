@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 *{
@@ -23,6 +24,7 @@ h3{
 p{
     color: black;
 }
+
 .container{
     max-width: 1400px;
     margin: 0 auto;
@@ -59,6 +61,7 @@ header{
     background-attachment: fixed;
 
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -72,6 +75,7 @@ nav{
 nav .logo{
     width: 100px;
 }
+
 nav ul li{
     text-decoration: none;
     display: inline-block;
@@ -95,98 +99,6 @@ nav ul a:not(.btn):after{
 }
 nav ul a:hover::after{
     width: 100%;
-}
-/*video*/
-
-.back-vid{
-    position: absolute;
-    right: 0;
-    bottom: 0;  
-    z-index: -1;
-    
-}
-@media (min-aspect-radio: 16/9)
-{
-    .back-vid{
-        width: auto;
-        height: 100%;
-    }
-}
-@media (max-aspect-radio: 16/9)
-{
-    .back-vid{
-        width: auto;
-        height: 100%;
-    }
-}
-.banner{
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.banner .banner-text {
-    margin: 0 auto;
-    text-align: center;
-    padding:  234px;
-    
-}
-.banner .banner-text h1{
-    font-size: 160px;
-    color: #fff;
-    font-weight: 600;
-}
-.banner .banner-text a{
-    font-size: 24px;
-    color: #fff;
-    padding: 14px 70px;
-    text-decoration: none;
-    display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    margin-top: 20px;
-}
-
-/*faca mais*/
-.faca-mais .container{
-    display:  flex;
-    align-items: center;
-    
-    padding: 30px 70px;
-    
-}
-.faca-mais .faca-mais-text{
-    width: 100%;
-    padding: 0 40px;
-}
-.faca-mais .faca-mais-text h3{
-    font-size: 56px;
-    text-align: center;
-}
-.faca-mais .faca-mais-text p{
-    margin:5px  0 10px 0;
-    text-align: center;
-}
-
-.faca-mais .faca-mais-img{
-    width: 50%;
-    
-}
-.faca-mais .faca-mais-img img{
-    width: 100%;
-}
-/*cerfiticacoes*/
-.certificacoes h3,
-.certificacoes p{
-    text-align: center;
-}
-.certificacoes .container div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 /*footer*/
 .footer{
@@ -248,50 +160,72 @@ nav ul a:hover::after{
         right: 28px;
    }
 }
-
-/*Pagina home responsivo*/
-.faca-mais .faca-mais-text{
-    margin-top: 10px;
-    padding: 0 20px;
-    order: 1;
+/*MEDIA*/
+.contacto-info .right-side input{
+    display: block;
+    width:  100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 2px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+}
+.contacto-info .right-side input:focus,
+.contacto-info .right-side textarea:focus{
+    border-color: #4f9cf9;
+}
+.contacto-info .right-side textarea{
+    border: 2px solid #f1f1f1;
+    color: #212121;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+}
+.contacto-info .right-side button{
+    border: none;
+}
+/*contacto header*/
+.contacto-header{
+    background-color: #4f9cf9;
+    width: 100%;
+    height: 120px;
+    
 }
 
-/*Empresa*/
-.empresa{
-    width: 100%;
+.contacto-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contacto-info .left-side{
+    width: 50%;
+    padding: 30px;
     background-color: #4f9cf9;
-    padding: 64px 0;
-    display:inline-block;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+.contacto-info .left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contacto-info .left-side div i{
+    font-size: 24px;
+    margin-right: 20px;
     color: white;
 }
-
-.container-empresa a:first-of-type {
-    padding-right: 2.5%;
+.contacto-info .left-side p{
+    font-size: 17px;
+    color: white;
 }
-.container-empresa p:last-of-type {
-    padding-left: 2.5%;
-}
-.container-empresa a {
-    /* width: 50%; */
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 255px;
-    -ms-flex-preferred-size: 255px;
-    flex-basis: 255px;
-}
-.container-empresa {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
+.contacto-info .right-side{
+    width: 50%;
 }
 a {
     font-size: 1em;
@@ -306,24 +240,4 @@ a {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-.empresa h2 {
-    margin-left: 10%;
-}
-h2 {
-    font-size: 1.3em;
-    line-height: 1.7rem;
-    font-weight: 400;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-h2 {
-    display: block;
-    font-size: 30px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
 }
