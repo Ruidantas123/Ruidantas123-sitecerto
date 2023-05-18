@@ -77,13 +77,13 @@ nav ul a{
 }
 nav ul a:not(.btn):after{
     content: "";
-    background-color: #4f9cf9;
+    background-color: white;
     height: 3px;
     width: 0%;
     display: block;
     margin:  0 auto;
     transition: 0.3s;
-
+    
 }
 nav ul a:hover::after{
     width: 100%;
@@ -310,4 +310,11 @@ nav ul a:hover::after{
     margin-top: 10px;
     padding: 0 20px;
     order: 1;
+}
+/*contacto header*/
+.contacto-header{
+    background-color: #4f9cf9;
+    width: 100%;
+    height: 120px;
+    
 }
