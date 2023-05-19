@@ -68,9 +68,11 @@ nav{
     justify-content: space-between;
     top: 0;
     left: 0;
-    padding: 20px 8%;
+    padding: 18px 8%;
     position: absolute;
     width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+     margin: 0;
 }
 nav .logo{
     width: 100px;
