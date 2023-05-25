@@ -114,10 +114,12 @@ nav ul a:hover::after{
     padding: 10px;
     margin: 3px;
     border-radius: 10px;
+    
 }
 .footer p{
     margin-top: 10px;
     color: white;
+    
 }
 .menu-icon{
     color: white;
@@ -162,6 +164,17 @@ nav ul a:hover::after{
         top: 46px;
         right: 28px;
    }
+   .footer i{
+    font-size: 20px;
+    padding: 5px;
+}
+    .footer .legal-menu{
+    font-size: 12px;
+    align-items: center;
+}
+    .footer .legal-menu a{
+    font-size: 12px;
+}
 }
 /*MEDIA*/
 .contacto-info .right-side input{
@@ -256,6 +269,7 @@ a {
     color: #fff;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: center;
 }
 .legal-menu a {
     color: #fff;

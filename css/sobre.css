@@ -8,6 +8,7 @@
     text-decoration: none;
     outline: none;
     font-family: 'Poppins', sans-serif;
+    
 }
 body{
 
@@ -130,6 +131,41 @@ nav ul a:hover::after{
     font-size: 30px;
     color: white;
 }
+@media(max-width: 1060px){
+    .certificacoes .container img{
+        width: 250px;
+        height: auto;
+    }
+}
+@media(max-width: 960px){
+    .certificacoes .container img{
+        width: 200px;
+        height: auto;
+    }
+}
+@media(max-width: 830px){
+    .certificacoes .container img{
+        width: 170px;
+        height: auto;
+    }
+}@media(max-width: 830px){
+    .footer{
+        
+        height: auto;
+    }
+    
+    .footer i{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .footer .legal-menu{
+        font-size: 12px;
+        align-items: center;
+    }
+    .footer .legal-menu a{
+        font-size: 12px;
+    }
+}
 @media(max-width: 830px){
    /*Menu mobile*/
    .ul{
@@ -206,6 +242,7 @@ a {
     color: #fff;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: center;
 }
 .legal-menu a {
     color: #fff;

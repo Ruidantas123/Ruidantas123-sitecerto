@@ -36,7 +36,7 @@ p{
     border-radius: 10px;
     cursor: pointer;
     display: inline-block;
-    transition: 0.1s;
+    transition: 0.5s;
 }
 .btn.animate.btn{
     animation: animate-outline  1s ease-out infinite;
@@ -135,6 +135,7 @@ nav ul a:hover::after{
         height: 100%;
     }
 }
+
 .banner{
     display: flex;
     overflow: hidden;
@@ -191,7 +192,7 @@ nav ul a:hover::after{
 
 .faca-mais .faca-mais-img{
     width: 50%;
-    
+    width: 1300px;
 }
 .faca-mais .faca-mais-img img{
     width: 100%;
@@ -214,6 +215,11 @@ nav ul a:hover::after{
 .footer p{
     margin-top: 10px;
     color: white;
+    align-items: center;
+}
+.footer .legal-menu{
+    
+    align-items: center;
 }
 .menu-icon{
     color: white;
@@ -227,7 +233,36 @@ nav ul a:hover::after{
     color: white;
 }
 @media(max-width: 830px){
-   /*Menu mobile*/
+    
+      
+        .scroll-down{
+            right: 3%;
+            transition: .2s;
+        }   
+        .banner .banner-text h1{
+            font-size: 70px;
+        }
+        .banner .banner-text button{
+            font-size: 20px;
+        }
+        .footer i{
+            font-size: 20px;
+            padding: 5px;
+        }
+        .footer .legal-menu{
+            font-size: 12px;
+            align-items: center;
+        }
+        .footer .legal-menu a{
+            font-size: 12px;
+        }
+}
+
+
+
+@media(max-width: 830px){
+   
+    /*Menu mobile*/
    .ul{
     position: fixed;
     top: 0;
