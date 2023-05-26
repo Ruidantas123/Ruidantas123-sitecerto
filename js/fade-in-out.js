@@ -50,5 +50,5 @@ window.addEventListener('scroll', function() {
       } else {
         clearInterval(fadeEffect);
       }
-    }, 30); // Ajuste a velocidade da animação modificando o valor 30
+    }, 50); // Ajuste a velocidade da animação modificando o valor 50
   }
