@@ -18,21 +18,21 @@
             <video autoplay muted loop plays-inline class="back-vid">
                 <source src="/vid/vid-back.mp4" type="video/mp4">
             </video>
-            <nav id="menu" class="hidden">
+            <nav id="menu" class="hidden" data-menu-open="true">
                 <a href="index.html">
-                    <img src="img/logo.png" class="logo">
+                  <img src="img/logo.png" class="logo">
                 </a>
                 <ul class="ul">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="media.html">Media</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <div class="menu-close" onclick="closeMenu()">
-                        <i class="fa fa-times-circle" aria-hidden="true"></i>
-                    </div>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="sobre.html">Sobre</a></li>
+                  <li><a href="media.html">Media</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <div class="menu-close" onclick="closeMenu()" >
+                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                  </div>
                 </ul>
-                <div class="menu-icon" onclick="openMenu()">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
+                <div class="menu-open" onclick="openMenu()" >
+                  <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
             </nav>
             <section class="banner">
@@ -99,5 +99,6 @@
     <!--end footer-->
     <script src="js/main.js"></script>
     <script src="js/ease-in.out.js"></script>
+    <script src="js/fade-in-out.js"></script>
 </body>
 </html>

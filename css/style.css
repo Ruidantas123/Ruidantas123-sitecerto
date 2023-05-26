@@ -30,7 +30,7 @@ p{
 }
 
 .btn{
-    background-color: #4f9cf9;
+    background-color: #249c88;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -42,11 +42,11 @@ p{
     animation: animate-outline  1s ease-out infinite;
 }
 .btn:hover{
-    background-color: #3580db;
+    background-color: #1f8675;
 }
 @keyframes animate-outline{
     form{
-        outline: 0px solid #4f9cf9;
+        outline: 0px solid #249c88;
     }
     to{
         outline: 15px solid #4f9bf900;
@@ -155,6 +155,7 @@ nav ul a:hover::after{
     font-size: 160px;
     color: #fff;
     font-weight: 600;
+    
 }
 .banner .banner-text button{
     font-size: 24px;
@@ -200,7 +201,7 @@ nav ul a:hover::after{
 
 /*footer*/
 .footer{
-    background-color: #4f9cf9;
+    background-color: #249c88;
     text-align: center;
     
 }
@@ -221,7 +222,7 @@ nav ul a:hover::after{
     
     align-items: center;
 }
-.menu-icon{
+.menu-open{
     color: white;
     cursor: pointer;
     font-size: 20px;
@@ -267,7 +268,7 @@ nav ul a:hover::after{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #08448e;
+    background-color: #1f8675;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -283,7 +284,7 @@ nav ul a:hover::after{
     margin: 10px 0;
     font-size: 16px;
    }
-   nav .menu-icon{
+   nav .menu-open{
     display: block;
    }
    nav .menu-close{
@@ -293,6 +294,13 @@ nav ul a:hover::after{
         top: 46px;
         right: 28px;
    }
+   .ease-in-out {
+    animation-name: ease-in-out;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    height: 80px;
+    }
 }
 
 /*Pagina home responsivo*/
@@ -305,7 +313,7 @@ nav ul a:hover::after{
 /*Empresa*/
 .empresa{
     width: 100%;
-    background-color: #4f9cf9;
+    background-color: #249c88;
     padding: 64px 0;
     display:inline-block;
     color: white;
@@ -433,3 +441,11 @@ h2 {
   element.style {
     height: 40px;
 }
+.fade-in {
+    opacity: 0;
+    
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }

@@ -32,7 +32,7 @@ p{
 }
 
 .btn{
-    background-color: #4f9cf9;
+    background-color: #249c88;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -44,11 +44,11 @@ p{
     animation: animate-outline  1s ease-out infinite;
 }
 .btn:hover{
-    background-color: #3580db;
+    background-color: #1f8675;
 }
 @keyframes animate-outline{
     form{
-        outline: 0px solid #4f9cf9;
+        outline: 0px solid #249c88;
     }
     to{
         outline: 15px solid #4f9bf900;
@@ -73,7 +73,7 @@ nav{
     position: absolute;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 0;
+   margin: 0;
 }
 nav .logo{
     width: 100px;
@@ -83,6 +83,7 @@ nav ul li{
     text-decoration: none;
     display: inline-block;
     margin-left: 40px;
+    text-align: center;
 }
 nav ul li a{
     color:  #fff;
@@ -105,7 +106,7 @@ nav ul a:hover::after{
 }
 /*footer*/
 .footer{
-    background-color: #4f9cf9;
+    background-color: #249c88;
     text-align: center;
 }
 .footer i{
@@ -136,12 +137,9 @@ nav ul a:hover::after{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #08448e;
+    background-color: #1f8675;
     width: 100%;
     height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     clip-path: circle(0% at 100% 0);
     transition: 0.7s;
    }
@@ -151,6 +149,11 @@ nav ul a:hover::after{
    .ul a{
     margin: 10px 0;
     font-size: 16px;
+   }
+   .ul li{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
    }
    nav .menu-icon{
     display: block;
@@ -280,7 +283,7 @@ nav ul a:hover::after{
 }
 .contacto-info .right-side input:focus,
 .contacto-info .right-side textarea:focus{
-    border-color: #4f9cf9;
+    border-color: #249c88;
 }
 .contacto-info .right-side textarea{
     border: 2px solid #f1f1f1;
@@ -296,7 +299,7 @@ nav ul a:hover::after{
 }
 /*contacto header*/
 .contacto-header{
-    background-color: #4f9cf9;
+    background-color: #249c88;
     width: 100%;
     height: 90px;
     
@@ -311,7 +314,7 @@ nav ul a:hover::after{
 .contacto-info .left-side{
     width: 50%;
     padding: 30px;
-    background-color: #4f9cf9;
+    background-color: #249c88;
     border-radius: 14px;
     margin-right: 50px;
     height: fit-content;
