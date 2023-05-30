@@ -171,33 +171,39 @@ nav ul a:hover::after{
 }
 
 /*faca mais*/
-.faca-mais .container{
+.faca-mais {
     display:  flex;
     align-items: center;
-    
+
     padding: 50px 70px;
+    height: 500px;
+
+    background-image: url("../img/download.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     
+    background-color: #1f8675;
 }
+
 .faca-mais .faca-mais-text{
     width: 100%;
     padding: 0 40px;
+    
 }
 .faca-mais .faca-mais-text h3{
     font-size: 56px;
     text-align: center;
+    color: white;
 }
 .faca-mais .faca-mais-text p{
     margin:5px  0 10px 0;
     text-align: center;
+    color: white;
 }
 
-.faca-mais .faca-mais-img{
-    width: 50%;
-    width: 1300px;
-}
-.faca-mais .faca-mais-img img{
-    width: 100%;
-}
+
 
 /*footer*/
 .footer{

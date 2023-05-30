@@ -9,10 +9,6 @@ window.addEventListener('scroll', function() {
   var h3FacaMais = facaMaisText.querySelector('h3');
   var pFacaMais = facaMaisText.querySelector('p');
 
-  var bannerText = document.querySelector('.banner-text');
-  var h1bannerText = bannerText.querySelector('h1');
-  var btnBanner = bannerText.querySelector('.btn');
-
   if (isElementPartiallyInViewport(empresa)) {
       fadeInOut(h2Empresa);
   }
@@ -26,11 +22,6 @@ window.addEventListener('scroll', function() {
   if (isElementPartiallyInViewport(facaMaisText)) {
       fadeInOut(h3FacaMais);
       fadeInOut(pFacaMais);
-  }
-
-  if (isElementPartiallyInViewport(bannerText)) {
-      fadeInOut(h1bannerText);
-      fadeInOut(btnBanner);
   }
 });
 
