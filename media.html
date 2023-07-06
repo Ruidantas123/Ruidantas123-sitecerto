@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link-->
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/media.css">
-    <title> Nome</title>
+    <title>Nome</title>
 </head>
 <body>
     <!--Header-->
@@ -19,12 +18,12 @@
                 <div class="cor-header-contacto">
                     <nav>
                         <a href="index.html">
-                            <img src="img/logo.png" class="logo">
+                            <img src="img/cropped-MEAM_LOGO_E-05.png" class="logo">
                         </a>
                         <ul class="ul">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="sobre.html">Sobre</a></li>
-                            <li><a href="media.html">Media</a></li>
+                            <li><a href="media.html">Mídia</a></li>
                             <li><a href="contacto.html">Contacto</a></li>
                             <div class="menu-close" onclick="closeMenu()">
                                 <i class="fa fa-times-circle" aria-hidden="true"></i>
@@ -40,31 +39,67 @@
         <!--End Container-->
     </header>
     <!--End Header--> 
-    
-        
+
+    <!--Main Content-->
+    <main>
+      <section id="noticias">
+        <div class="container">
+          <h2>Notícias</h2>
+          <article>
+            <div class="image">
+              <img src="caminho_da_imagem1.jpg" alt="Imagem da Notícia 1">
+            </div>
+            <div class="content">
+              <h3>Título da Notícia 1</h3>
+              <p>Descrição da notícia 1...</p>
+              <p>Data: DD/MM/AAAA</p>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+          </article>
+          
+          <article>
+            <div class="image">
+              <img src="caminho_da_imagem2.jpg" alt="Imagem da Notícia 2">
+            </div>
+            <div class="content">
+              <h3>Título da Notícia 2</h3>
+              <p>Descrição da notícia 2...</p>
+              <p>Data: DD/MM/AAAA</p>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!--End Main Content-->
 
     <!--footer-->
     <footer class="footer">
-        <div class="container" >
+        <div class="container">
             
         </div>
-            <div class="links" style="height: 40px;">
-                <a href="#">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    
-                </a>
-            </div>
+        <div class="links" style="height: 0px;">
+            <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </a>
         </div>
-        <div class="legal-menu">
-            <div class="menu-legal-en-container"><ul id="menu-legal-en" class="menu"><li id="menu-item-866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-866"><a href="">Privacy Policy</a></li>
-        </ul></div> 
-            <span>©Meam - All rights reserved </span>
-            </div>
-    </footer>
-    <!--end footer-->
-    <script src="js/main.js"></script>
+    </div>
+    <div class="legal-menu">
+        <div class="menu-legal-en-container">
+            <ul id="menu-legal-en" class="menu">
+                <li id="menu-item-866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-866">
+                    <a href="">Privacy Policy</a>
+                </li>
+            </ul>
+        </div> 
+        <span>©Meam - All rights reserved</span>
+    </div>
+</footer>
+<!--end footer-->
+<script src="js/main.js"></script>
+<script src="js/media.js"></script>
 </body>
 </html>
