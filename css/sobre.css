@@ -16,18 +16,18 @@ body {
 .container-title {
   margin: 0 auto;
   text-align: center;
-  padding: 100px;
+  padding: 70px;
   background-color: #249c88;
 }
 
 .container-title h1 {
-  font-size: 90px;
+  font-size: 55px;
   color: #fff;
   font-weight: 100;
 }
 
 .container-title a {
-  font-size: 20px;
+  font-size:17px;
   color: #fff;
 }
 
@@ -126,67 +126,79 @@ body {
   text-align: center;
 }
 
-.banner-1 {
+.background-1 {
+  position: relative;
+  height:600px;
+}
+
+.background-1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 530px;
-  background-color: #efefef;
-  display: flex;
+  height: 100%;
+  object-fit: cover;
 }
 
-.banner-1 img {
-  width: 50%;
-  height: auto;
-  display: flex;
-  background-size: cover;
-}
-
-.banner-1-text {
-  text-align: left;
-  margin-left: 10%;
-  margin-top: 180px;
-  margin-right: 20%;
-}
-
-.banner-1 p {
-  font-size: 15px;
-}
-
-.banner-1 h2 {
-  font-size: 30px;
-}
-
-.banner-2 {
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 530px;
-  background-color: #efefef;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
   display: flex;
+  align-items: center;
 }
 
-.banner-2 img {
-  width: 50%;
-  height: auto;
+.content-img {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  width: 36.8%;
+  height: 83%;
   display: flex;
+  align-items: center;
 }
 
-.banner-2-text {
-  text-align: left;
-  margin-left: 10%;
-  margin-top: 180px;
-  margin-right: 19.65%;
+.content-img img {
+    width: 440px;
+    height: 400px;
+    z-index: 2;
 }
 
-.banner-2 p {
-  font-size: 15px;
+.text {
+  color: #000000;
+  z-index: 1;
+  background-color: #249c88;
+  left: 2%;
+  height: 400px;
+  width: 1200px;
+  
 }
 
-.banner-2 h2 {
+.text h1 {
   font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.text p {
+  font-size: 18px;
+  color: white;
 }
 
 section,
 footer{
   padding: 10px 0;
-  
 }
 h3 {
   font-size: 50px;
@@ -290,13 +302,15 @@ nav ul a:hover::after {
 .footer {
   background-color: #249c88;
   text-align: center;
+  height: 90px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .footer i {
   color: white;
   font-size: 25px;
   padding: 10px;
-  margin: 3px;
+  margin: 0px;
   border-radius: 10px;
 }
 
@@ -308,6 +322,13 @@ nav ul a:hover::after {
 
 .footer .legal-menu {
   align-items: center;
+}
+
+
+.footer a {
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .menu-open {

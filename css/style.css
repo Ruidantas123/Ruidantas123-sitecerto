@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+html  {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -195,13 +203,13 @@ nav ul a:not(.btn).scrolling::after {
 .footer{
     background-color: #249c88;
     text-align: center;
-    
+    height: 100px;
 }
 .footer i{
     color: white;
     font-size: 25px;
     padding: 10px;
-    margin: 3px;
+    margin: 0px;
     border-radius: 10px;
     
 }
@@ -214,6 +222,15 @@ nav ul a:not(.btn).scrolling::after {
     
     align-items: center;
 }
+
+.footer a {
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+
 .menu-open{
     color: white;
     cursor: pointer;
@@ -327,15 +344,10 @@ nav ul a:not(.btn).scrolling::after {
     -webkit-flex-basis: 255px;
     -ms-flex-preferred-size: 255px;
     flex-basis: 255px;
+    font-style: italic;
 }
-.container-empresa {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+.container-empresa { 
     display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
     font-size: 18px;
@@ -472,6 +484,10 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .image-container img {
+    height: 430px;
   }
 
   .container2-text {

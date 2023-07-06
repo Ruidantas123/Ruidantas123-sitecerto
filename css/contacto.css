@@ -109,18 +109,26 @@ nav ul a:hover::after{
 .footer{
     background-color: #249c88;
     text-align: center;
+    height: 90px;
 }
 .footer i{
     color: white;
     font-size: 25px;
     padding: 10px;
-    margin: 3px;
+    margin: 0px;
     border-radius: 10px;
 }
 .footer p{
     margin-top: 10px;
     color: white;
 }
+
+.footer a {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
 .menu-icon{
     color: white;
     cursor: pointer;
